@@ -5,10 +5,10 @@
     <remote name="aosp" fetch="https://android.googlesource.com" />
     <remote name="github" fetch="https://github.com" />
 
-    <!-- Branche par défaut AOSP Android 16.0 -->
-    <default revision="refs/tags/android-16.0.0_r1" remote="aosp" sync-j="4" />
+    <!-- Branche par défaut AOSP Android 16.5 -->
+    <default revision="refs/tags/android-16.5.0_r1" remote="aosp" sync-j="4" />
 
     <!-- Dépôt Vendor AperOS GO -->
-    <project path="vendor/aperos_go" name="android_vendor_aperos_go" remote="github" revision="main" />
+    <project path="vendor/aperos_go" name="AperWaveDevs/android_vendor_aperos_go" remote="github" revision="main" />
 
 </manifest>
